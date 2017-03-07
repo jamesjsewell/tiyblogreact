@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+	font-size: 0;
+	}
+
+.h1,.h2,.h3,.h4{
+	font-family: 'Lato', sans-serif;
+	}
+
+#page{
+	margin: auto;
+	position: relative;
+	}
+.banner{
+	position: fixed;
+	right:1%;
+	bottom: 10%;
+}
+.header{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+	vertical-align: center;
+	text-align: center;
+	}
+
+.logoImage{
+	width: 120px;
+	width:120px;
+	position: absolute;
+	border-radius: 50%;
+	border: 5px solid white;
+	left: 12%;
+	bottom: -15%;
+	}
+
+.content{
+	margin-top: 4%;
+	padding-top: 5%;
+	vertical-align: center;
+	text-align: center;
+	margin: auto;
+	}
+
+.column1{
+	text-align: left;
+	background: white;
+	width: 20%;
+	}
+
+.column2{
+	background: white;
+	width: 40%;
+	}
+
+.column1,.column2{
+	vertical-align: top;
+	display: inline-block;
+	margin: 1%;
+	padding: 1%;
+	}
+
+.title{
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	font-size: 28px;
+
+	}
+
+.subTitle{
+	color: grey;
+	font-style: italic;
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	font-size: 15px;
+	}
+
+.classroomPhoto{
+	height: 512px;
+	padding-left: 0%;
+	padding-right: 0%;
+	text-align: left;
+	vertical-align: left;
+	max-width: 100%;
+	}
+
+.paragraph{
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	max-width: 100%;
+
+}
+.ironyardTitle{
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+
+}
+.ironyardSubtitle{
+	font-family: 'Merriweather', serif;
+	font-size: 15px;
+
+}
+.titleSection{
+	color: grey;
+	text-align: left;
+	border-bottom: 1px solid grey;
+	margin-bottom: 4%;
+}
+
+.searchLabel{
+	color: grey;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('searchicon.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+	.banner{
+		visibility: hidden;
+	}
+	.content{
+		margin-top: 10%;
+	}
+	.column1,.column2{
+		padding-right: 5%;
+		vertical-align: center;
+		text-align: center;
+		display: block;
+		margin: 1%
+		padding: 5%;
+		width: 100%;
+	}
+}
